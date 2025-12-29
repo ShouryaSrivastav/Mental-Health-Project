@@ -1,0 +1,125 @@
+
+create database MH_Project
+
+use MH_Project
+
+select * from [dbo].[mental_health_dataset]
+
+select count(*) from mental_health_dataset
+
+select * from INFORMATION_SCHEMA.columns where TABLE_NAME = 'mental_health_dataset'
+
+select COUNT(*) from mental_health_dataset
+where age = null or age = 0
+
+select count(*) from mental_health_dataset
+where gender = null or gender = 'unknown' or gender = 'Unknown' or gender = ''
+
+select distinct gender,count(*) from mental_health_dataset
+group by gender
+
+update mental_health_dataset
+set gender = 'Others/Non-Binary'
+where gender = 'Non-binary'
+
+select count(*) from mental_health_dataset
+where employment_status = null 
+
+select count(*) from mental_health_dataset
+where employment_status = 'unknown' or employment_status = 'Unknown' or employment_status = ''
+
+select count(*) from mental_health_dataset
+where employment_status = 'NA'
+
+select distinct employment_status,count(*) from mental_health_dataset
+group by employment_status
+
+select count(*) from mental_health_dataset
+where work_environment is null 
+
+select count(*) from mental_health_dataset
+where work_environment = 'Unknown' or work_environment = 'unknown'
+
+select count(*) from mental_health_dataset
+where work_environment = 'NA' or work_environment = 'Na' or work_environment = ''
+
+select distinct work_environment,count(*) from mental_health_dataset
+group by work_environment
+
+select count(*) from mental_health_dataset
+where mental_health_history is null
+
+select distinct mental_health_history,count(*) from mental_health_dataset
+group by mental_health_history
+
+select count(*) from mental_health_dataset
+where seeks_treatment is null
+
+select distinct seeks_treatment,count(*) from mental_health_dataset
+group by seeks_treatment
+
+select count(*) from mental_health_dataset
+where seeks_treatment is null
+
+select * from mental_health_dataset
+
+
+select count(*) from mental_health_dataset
+where stress_level is null
+
+select distinct stress_level,count(*) from mental_health_dataset
+group by stress_level
+
+select count(*) from mental_health_dataset
+where physical_activity_days is null
+
+select distinct physical_activity_days,count(*) from mental_health_dataset
+group by physical_activity_days
+
+select count(*) from mental_health_dataset
+where depression_score is null
+
+select distinct depression_score,count(*) from mental_health_dataset
+group by depression_score
+
+select count(*) from mental_health_dataset
+where anxiety_score is null
+
+select distinct anxiety_score,count(*) from mental_health_dataset
+group by anxiety_score
+
+select count(*) from mental_health_dataset
+where social_support_score is null
+
+select distinct social_support_score,count(*) from mental_health_dataset
+group by social_support_score
+
+select count(*) from mental_health_dataset
+where productivity_score is null
+
+select distinct productivity_score,count(*) from mental_health_dataset
+group by productivity_score
+
+select count(*) from mental_health_dataset
+where mental_health_risk = 'NA' or mental_health_risk = 'Na' or mental_health_risk = ''
+
+select distinct mental_health_risk,count(*) from mental_health_dataset
+group by mental_health_risk
+
+select * from mental_health_dataset
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
