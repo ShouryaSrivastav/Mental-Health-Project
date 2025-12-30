@@ -1,6 +1,7 @@
 # 🚀 Mental Health & Productivity Insights Dashboard
 
 🔗 **Interactive Dashboard:** [View Live Dashboard](https://app.powerbi.com/view?r=eyJrIjoiYzc4ODlkNjgtZTMwOS00Y2JkLWE0ZTUtNzViNjc3NTIzMTMxIiwidCI6IjZiNGQwNDQ4LTc5MGMtNGQ5MS1iZjY3LTg5ZDk1NmJlNDEwYSJ9&pageName=8e5244683906612e0b36)
+(View In Landscape Mode On Phone)
 
 ---
 
